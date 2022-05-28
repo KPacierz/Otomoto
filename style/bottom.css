@@ -1,0 +1,158 @@
+.bottom-container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 26px;
+}
+.bestdeal{
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  grid-area: 4 / 2;
+}
+.bestdeal-img{
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.bestdeal-text{
+  padding-left: 22px;
+  padding-right: 22px;
+  position: relative;
+}
+.bestdeal-title{
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.bestdeal-description{
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.price{
+  color:rgb(189, 0, 0);
+  font-weight: 600;
+  font-size: 22px;
+  margin: 0;
+}
+.price sup{
+  font-size: 10px;
+  font-weight: 400;;
+  letter-spacing: 0;
+}
+.bestdeal-info{
+  position: absolute;
+  top: -56px;
+  left: 30px;
+  color: white;
+  background-color: rgb(12, 170, 149);
+  border-radius: 4px;
+  padding: 6px 14px 6px 14px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.marked-offers{
+  width: 581px;
+  grid-area: 4 / 3;
+}
+.marked-offers-top{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.marked-offers-title{
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+  line-height: 26px;
+}
+.marked-offers-ref{
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+  color: rgb(64, 140, 255);
+}
+.marked-offers-ref:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.offer-container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 581px;
+  gap: 16px;
+}
+.offer{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: calc(50% - 8px);
+  height: 100%;
+  box-shadow: 1px 1px 16px rgba(131, 131, 131,0.3);
+  border-radius: 6px;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+.offer-img{
+  height: 208px;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.offer-text{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.offer-title{
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+}
+.offer-description{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  padding-right: 20px;
+}
+.bottom-offers{
+  grid-area: 6 / 2 / auto / span 2;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  width: 1178px;
+}
+.offer-row{
+  width: calc((100% / 6) - 16px);
+  box-shadow: 1px 1px 16px rgba(131, 131, 131,0.3);
+  border-radius: 6px;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+.offer-row-img{
+  height: 122.7px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 6px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}

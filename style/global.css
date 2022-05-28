@@ -1,0 +1,15 @@
+body{
+  font-family: 'Segoe UI', Tahoma;
+  margin: 0;
+  padding-top: 52px;
+}
+p{
+  font-size: 14px;
+}
+.main-container{
+  display: grid;
+  grid-template-columns: auto repeat(2, 581px) auto;
+  grid-template-rows: auto 1fr repeat(3, auto);
+  gap: 24px 16px;
+  margin-top: -4px;
+}
